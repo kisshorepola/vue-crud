@@ -18,8 +18,8 @@
       <label for="mike">telugu</label>
     </div>
     <input type="number" v-model="modeldate.contact" placeholder="employee contact number" required>
-    <button @click="save">save</button>
-    <button @click="cancel">cancel</button>
+    <button class="btn" @click="save">save</button>
+    <button class="btn" @click="cancel">cancel</button>
   </div>
 </template>
 
@@ -80,5 +80,13 @@ input[type=submit] {
 }
 .checkbox{
   padding: 2%;
+}
+.btn{
+  width: 74px;
+  padding: 10px;
+  margin-right: 10px;
+  color: white;
+  background: rgb(102, 102, 179);
+  border-radius: 8px;
 }
 </style>

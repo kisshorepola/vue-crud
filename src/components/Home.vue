@@ -105,8 +105,8 @@ export default {
       this.editflag = true
        this.modeldate.empName = this.$store.getters.getpersonaldata[index].empName
        this.modeldate.email = this.$store.getters.getpersonaldata[index].email
-       this.modeldate.department=[],
-       this.modeldate.languages=[],
+       this.modeldate.department=this.$store.getters.getpersonaldata[index].department,
+       this.modeldate.languages=this.$store.getters.getpersonaldata[index].languages,
        this.modeldate.contact=this.$store.getters.getpersonaldata[index].contact
     }
   }

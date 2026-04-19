@@ -1,4 +1,4 @@
-# crud-app-new
+# crud-app
 
 ## Project setup
 ```
